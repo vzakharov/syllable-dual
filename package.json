@@ -1,0 +1,30 @@
+{
+  "name": "syllable-dual",
+  "version": "0.0.1",
+  "description": "Version of `syllable` package that support both ESM and CJS imports",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "repository": "https://github.com/vzakharov/syllable-dual",
+  "author": "Vova Zakharov <vzakharov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "unbuild": "^1.2.1"
+  },
+  "dependencies": {
+    "syllable": "^5.0.1"
+  }
+}
