@@ -1,6 +1,6 @@
 {
   "name": "syllable-dual",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Version of `syllable` package that support both ESM and CJS imports",
   "exports": {
     ".": {
